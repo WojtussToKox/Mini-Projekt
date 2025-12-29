@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AAA.cpp" />
     <ClCompile Include="Mini-Projekt.cpp" />
     <ClCompile Include="ProblemData\ProblemData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ProblemData\ProblemData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileLoader\FileLoader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
