@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Mini-Projekt.cpp" />
+    <ClCompile Include="ProblemData\ProblemData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemData\ProblemData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
